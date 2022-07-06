@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+:root{
+    --banner-url: url('/images/proba-back-1.jpeg');
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+ 
+
+.navbar-logo{
+    height: 8vh;
+    width: auto;
+    padding-left: 2vw;
+}
+
+.bg-green{
+    background-color: #00b26b !important;
+    color:white !important;
+
+}
+
+.banner{
+    height: 92vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dark-grey-text{
+    color:#202428 !important;
+}
+
+
+.ubuntu-bold{
+    font-family: Ubuntu!important;
+    font-weight: bold!important;
+}
+
+.ubuntu{
+    font-family: Ubuntu!important;
+}
+
+.bg-darkblue{
+    background-color: #171b31 !important;
+}
+
+.cell{
+    height: 46vh;
+}
+
+.phone-cell{
+    background-image: url("/images/proba-phone.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar-overlap-fix{
+    padding-top: 8vh;
+    overflow-x: hidden;
+}
+
+.icon{
+    height: 4vh;
+    width: 4vh;
+    transition: all 0.3s ease-in-out;
+}
+
+.icon:hover{
+    transform: scale(0.8);
+}
+
+span{
+    color: #00b26b;
+}
+
+#table-conatiner{
+    width: 100vw;
+    scroll-margin:8vh;
+}
+
+.place-holder{
+    height: 92vh;
+    width: 100vw;
+}
+
+#banner2{
+    overflow: hidden;
+    position: relative;
+    width: 100vw;
+    height: 50vh;
+    scroll-margin: 8vh;
+}
+
+.hsa-logo-banner{
+    height: 75%;
+}
+
+#form-container{
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer{
+
+    width: 100vw;
+    background-color: #171b31;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left-center{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.center-vertically{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.center-horizontally{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ujra{
+    width: 180px;
+}
+
+.content{
+    min-height: 100%;
+    margin-bottom: -10vh;
+}
+
+.h-min-100{
+    min-width: 100px;
+}
+
+#csomagjaink{
+    scroll-margin: 8vh;
+}
+
+#bzzt{
+   
+}
+
+#bzzt{
+
+    animation: 1s shake ease-in-out infinite;
+    animation-play-state: running;
+}
+
+#rrrr{
+    animation: 2s shake ease-in-out infinite;
+    animation-play-state: running;
+}
+
+#ching{
+    animation: 3s shake ease-in-out infinite;
+    animation-play-state: running;
+}
+
+
+
+
+@keyframes shake {
+    10%, 90% {
+        transform: translate3d(-1px, 0, 0);
+      }
+      
+      20%, 80% {
+        transform: translate3d(2px, 0, 0);
+      }
+    
+      30%, 50%, 70% {
+        transform: translate3d(-4px, 0, 0);
+      }
+    
+      40%, 60% {
+        transform: translate3d(4px, 0, 0);
+      }
+}
+
+
+
+#banner-img{
+    background-image: var(--banner-url);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.table-img{
+    height: 50px;
+    width: 50px;
+}
+
+.record-img-overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    width: 50px;
+    height: 50px;
+    transition: .5s ease;
+    opacity: 0;
+    text-align: center;
+    color: white;
+
+}
+.record-img-container:hover .record-img-overlay {
+    opacity: 1;
+
+}
+.record-img-container{
+    position: relative;
+    height: 50px;
+    width: 50px;
+}
+
+#newImg[src=""] ~ .record-img-overlay {
+    opacity: 1!important;
+ }
+#newImg[src=""]{
+    display: none;
+}
+
+.table-upload-button{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        opacity: 0;
+        width: 50px;
+        height: 50px;
+}
+.bg-image{
+    top: 0vh;
+    left: 0;
+    height: 92vh;
+    width: 100vw;
+    object-fit: cover;
+     position: absolute;
+     z-index: -1;
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+
+.bg-img-premium{
+    top: 0vh;
+    left: 0;
+    height: 50vh;
+    width: 100vw;
+    object-fit: cover;
+     position: absolute;
+     z-index: -1;
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+@media screen and (max-width: 768px) {
+    #form-container{
+        height: 60vh;
+    }
+}
+    

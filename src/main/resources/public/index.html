@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=0.2">
+  <title>HSA</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="index.js"></script>
+  <link rel="icon" type="image/x-icon" href="/src/main/www/html/images/hsa-logo-white.svg">
+  <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
+</head>
+
+<body class="navbar-overlap-fix">
+  <nav class="navbar navbar-expand-lg fixed-top bg-green mx-auto">
+    <div class="container-fluid">
+      <img src="/images/hsa-logo-white.svg" class="navbar-logo d-lg-none d-xl-none d-xxl-none" alt="HSA logo">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center align-items-center" id="navbarTogglerDemo02">
+        <ul class="navbar-nav  mb-2 mb-lg-0">
+          <li class="nav-item d-flex align-items-center mr-4 ml-4">
+            <img src="/images/hsa-logo-white.svg" class="navbar-logo d-md-none d-sm-none d-xs-none d-lg-block "
+              alt="HSA logo">
+          </li>
+          <li class="nav-item d-flex align-items-center ">
+            <a class="nav-link active text-white ms-3 me-3  ubuntu " href="#table-conatiner">Készülékek</a>
+          </li>
+          <li class="nav-item d-flex align-items-center ">
+            <a class="nav-link active text-white ms-3 me-3 ubuntu" href="#table-conatiner">Top márkák</a>
+          </li>
+          <li class="nav-item d-flex align-items-center ">
+            <a class="nav-link active text-white ms-3 me-3 ubuntu" href="#table-conatiner">Ismerősen cseng?</a>
+          </li>
+          <li class="nav-item d-flex align-items-center ">
+            <a class="nav-link active text-white ms-3 me-3 ubuntu" href="#csomagjaink">Csomgjaink</a>
+          </li>
+          <li class="nav-item d-flex align-items-center ">
+            <a class="nav-link active text-white ms-3 me-3 ubuntu" href="#banner2">Prémium lehetőség</a>
+          </li>
+          <li class="nav-item d-flex align-items-center ">
+            <a class="nav-link active text-white ms-3 me-3 ubuntu" href="#form-container">SIM-kártya adatok</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <div class="content">
+    <div class="banner">
+      <!-- TODO: finish css table -->
+      <div class="container h-100 d-flex align-items-end w-75">
+        <div class="container mb-5">
+          <div class="row">
+            <div class="col-12"></div>
+            <img src="/images/proba-back-1.jpeg" class="thumbnail bg-image" alt="">
+            <div class="fs-1 text-white ubuntu-bold">Telefonos kisokos</div>
+          </div>
+          <div class="text-white ubuntu">A telefonálás az a cselekvés vagy az a pillanat, amikor telefonon beszélünk
+            valakivel</div>
+          <button type="button" class="btn bg-green mt-4 mb-5" id="sim-button">SIM adataim</button>
+        </div>
+      </div>
+    </div>
+    <div class="" id="table-conatiner">
+      <div class="row w-100 me-0 ms-0">
+        <div class="col-6 cell d-flex align-items-center justify-content-center  bg-white">
+          <div>
+            <div class="row mb-2">
+              <div class="col ubuntu-bold fs-4">
+                Készülékek
+              </div>
+
+            </div>
+            <div class="row">
+              <div class="col mt-2 mb-2">
+                <img src="/images/proba-iphone.png" class="icon" alt="iphone">
+                iPhone
+              </div>
+            </div>
+            <div class="row">
+              <div class="col mt-2 mb-2">
+                <img src="/images/proba-oldphone.png" class="icon" alt="oldPhone">
+                oldPhone
+              </div>
+            </div>
+            <div class="row">
+              <div class="col mt-2 mb-2">
+                <img src="/images/proba-nophone.png" class="icon" alt="noPhone">
+                noPhone
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 bg-darkblue cell d-flex align-items-center justify-content-center">
+          <div>
+            <div>
+              <div class="row mb-2">
+                <div class="col ubuntu-bold fs-4 text-white text-end">Top márkák
+
+                </div>
+              </div>
+              <div class="row mb-2"></div>
+              <div class="text-white col ubuntu text-end"><span>&bull;</span> Apple <span>&bull;</span> Samsung
+                <span>&bull;</span>Google <span>&bull;</span> Huawei <span>&bull;</span> OnePlus
+              </div>
+            </div>
+            <div class="row mb-2"></div>
+            <div class="text-white text-end"><span>&bull;</span> Xiaomi <span>&bull;</span> LG <span>&bull;</span> Oppo
+              <span>&bull;</span> Vivo <span>&bull;</span>Nokia
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row w-100 me-0 ms-0">
+        <div class="col-6 cell bg-green d-flex align-items-center justify-content-center">
+          <div class="ps-4 ms-4">
+            <div class="row">
+              <div class="col">
+                <div class="ubuntu text-white" id="bzzt">Bzzt! Bzzt!</div>
+                <div class="ubuntu text-white" id="rrrr">Rrrrrring! Bbbrrrring!</div>
+                <div class="ubuntu text-white" id="ching">Ching ching!</div>
+                <div class="ubuntu-bold text-white fs-4 mt-2">Ismerősen cseng?</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 phone-cell">
+
+        </div>
+      </div>
+    </div>
+    <div id="csomagjaink" class="place-holder center-vertically bg-darkblue">
+      <div class="container">
+        <div class="row">
+          <div class="col center-horizontally mb-5 fs-1 ubuntu-bold text-white">
+            Csomgjaink
+          </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4 flex-nowrap">
+          <div class="col-4">
+            <div class="card h-100 rounded-0 border-0 card-with">
+              <img src="/images/hsa-logo-white.svg" class="card-img-top bg-green border-0 rounded-0" alt="HSA Standard">
+              <div class="card-body">
+                <h5 class="card-title">Standard csomag</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <button type="button" class="btn btn-primary w-100 bg-green ubuntu-bold">Vásárlás</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card h-100 rounded-0 border-0 card-with">
+              <img src="/images/hsa-logo-white.svg" class="card-img-top bg-green border-0 rounded-0" alt="HSA Micro">
+              <div class="card-body">
+                <h5 class="card-title">Micro csomag</h5>
+                <p class="card-text ubuntu">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <button type="button" class="btn btn-primary w-100 bg-green ubuntu-bold">Vásárlás</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card h-100 rounded-0 border-0 card-with">
+              <img src="/images/hsa-logo-white.svg" class="card-img-top bg-green border-0 rounded-0" alt="HSA Nano">
+              <div class="card-body">
+                <h5 class="card-title">Nano csomag</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <button type="button" class="btn btn-primary w-100 bg-green ubuntu-bold">Vásárlás</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div id="banner2">
+      <img src="/images/proba-back-2.jpeg" class="thumbnail bg-image" alt="premium" id="premium">
+      <div class="container h-100 d-flex justify-content-center align-items-center">
+        <div class="row w-75">
+          <div class="col-12 ubuntu text-white">
+            Keletmagyarországi teljes lefedettség. Hosszú üzemidő.
+          </div>
+          <div class="col-12 ubuntu-bold fs-4 text-white">
+            Prémium lehetőség
+          </div>
+          <div class="col-4">
+            <img src="/images/hsa-logo-white.svg" class="hsa-logo-banner" alt="hsa logo">
+          </div>
+          <div class="col-4">
+            <img src="/images/hsa-logo-white.svg" class="hsa-logo-banner" alt="hsa logo">
+          </div>
+          <div class="col-4">
+            <img src="/images/hsa-logo-white.svg" class="hsa-logo-banner" alt="hsa logo">
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="bg-white">
+      <div id="form-container" class="bg-white container  ">
+        <div class="mt-5 w-75">
+          <div class="ubuntu-bold fs-2">Sim kártya adatok</div>
+          <div class="ubuntu fs-6 mb-3">Számunkra fontos a segítséged</div>
+          <form action="mailto:vagise4666@lenfly.com" method="post" enctype="text/plain">
+            <div class="row">
+              <div class="mb-3 col-6">
+                <input type="text" class="form-control" name="name" placeholder="Név" id="name">
+              </div>
+              <div class="mb-3 col-6">
+                <input type="email" placeholder="E-mail cím" name="email" class="form-control"
+                  aria-describedby="emailHelp" id="email">
+              </div>
+            </div>
+            <div class="row ms-0 me-0 ">
+              <div class="mb-3 form-check col-2 h-min-100">
+                <input class="form-check-input" type="radio" name="standard" id="flexRadioDefault1">
+                <label class="form-check-label ubuntu" for="flexRadioDefault1"> Standard</label>
+              </div>
+              <div class="mb-3 form-check col-2  h-min-100">
+                <input class="form-check-input" type="radio" name="micro" id="flexRadioDefault1">
+                <label class="form-check-label ubuntu" for="flexRadioDefault1"> Micro</label>
+              </div>
+              <div class="mb-3 form-check col-2  h-min-100">
+                <input class="form-check-input" type="radio" name="nano" id="flexRadioDefault1">
+                <label class="form-check-label ubuntu" for="flexRadioDefault1"> Nano</label>
+              </div>
+            </div>
+            <div class="row ms-0 me-0 ubuntu-bold">
+              Lepj meg minket egy tetszőleges képpel
+            </div>
+            <div class="row ms-0 me-0">
+              <input type="file" name="fájl" class="pe-0 ps-0" id="fileToUpload">
+            </div>
+            <div class="row ms-0 me-0 ubuntu mt-4">A "Küldés" gombra kattintva elfodod az &nbsp;<u
+                class="ubuntu ps-0 pe-0 w-auto">adatkezelési tájékoztató</u>ban foglaltakat.</div>
+            <button type="submit" class="btn  mt-1 text-white bg-green">Küldés ></button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container w-75">
+        <div class="row ">
+          <div class="col-2">
+            <img src="/images/hsa-logo-white.svg" alt="hsa logo">
+          </div>
+          <div class="col-8 text-end left-center">
+            <div class="row">
+              <div class="col ubuntu-bold text-white">
+                Adatkezelési tájékoztató
+              </div>
+            </div>
+            <div class="row">
+              <div class="col ubuntu text-white">
+                Copyright &copy;2022 Minden jog fenntartva.
+              </div>
+            </div>
+          </div>
+          <div class="col-2 center-vertically">
+            <button id="ujra" type="button" class="btn bg-green text-nowrap ubuntu-bold text-white ">Újra látni
+              akarom.</button>
+          </div>
+        </div>
+      </div>
+  </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+</body>
+<script>
+  var image = document.querySelector(".thumbnail");
+  new simpleParallax(image, {
+    maxTransition: 40,
+    scale: 1.5
+  });
+  var image2 = document.querySelector("#premium");
+  new simpleParallax(image2, {
+    scale: 1.5,
+    maxTransition: 40,
+    orientation: 'right'
+  });
+</script>
+
+</html>
